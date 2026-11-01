@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 typedef struct Lenguaje
 {
     char *Nombre;
@@ -6,6 +8,6 @@ typedef struct Lenguaje
 
 
 void description(Lenguaje lenguaje){
-    printf("Lenguaje: %s\nAño de creacion: %d\n", lenguaje.Nombre, lenguaje.year);
+    printf("Lenguaje: %s\nAño de creacion: %u\n", lenguaje.Nombre, lenguaje.year);
     printf("////////////////////////////////////////////\n");
 }

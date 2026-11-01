@@ -1,8 +1,8 @@
-#? Para actualizar nuestro programa C
+# Para actualizar nuestro programa C
 
 cc archivo.c
 
-#! Para ejecutarlo 
+# Para ejecutarlo 
 
 ./a.out
 
